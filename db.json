@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "status": "active",
+      "name": "Smartphone",
+      "cost": 1300,
+      "value": 2000,
+      "categoryId": "1"
+    },
+    {
+      "id": "2",
+      "status": "inactive",
+      "name": "Computer Desktop",
+      "cost": 3000,
+      "value": 5000,
+      "categoryId": "2"
+    },
+    {
+      "id": "3",
+      "status": "active",
+      "name": "Notebook",
+      "cost": 2500,
+      "value": 4000,
+      "categoryId": "2"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Eletrônicos"
+    },
+    {
+      "id": "2",
+      "name": "Computadores"
+    }
+  ]
+}
