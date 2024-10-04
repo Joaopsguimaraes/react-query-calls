@@ -23,6 +23,14 @@
       "cost": 2500,
       "value": 4000,
       "categoryId": "2"
+    },
+    {
+      "id": "d293",
+      "status": "active",
+      "name": "Ipad",
+      "cost": 200,
+      "value": 400,
+      "categoryId": "1"
     }
   ],
   "categories": [

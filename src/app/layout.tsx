@@ -6,6 +6,7 @@ import { TanstackQueryProvider } from '@/providers/tanstack-query'
 import { AsyncConfirmationDialogProvider } from '@/shared/async-confirmation-dialog'
 
 import { cn } from '@/lib/utils'
+import { Toaster } from '@/components/ui/toaster'
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <TanstackQueryProvider>
           <AsyncConfirmationDialogProvider>
             {children}
+            <Toaster />
           </AsyncConfirmationDialogProvider>
         </TanstackQueryProvider>
       </body>

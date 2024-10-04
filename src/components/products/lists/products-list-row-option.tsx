@@ -18,7 +18,7 @@ export function ProductsListRowOptions({
   const { handler: handleDeleteProduct } = useHandleRemoveProduct()
 
   return (
-    <div className="flex w-20 justify-center items-center gap-2">
+    <div className="flex w-20 items-center justify-center gap-2">
       <Button
         variant="ghost"
         size="icon"

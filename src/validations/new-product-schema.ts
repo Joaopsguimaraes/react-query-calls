@@ -11,9 +11,9 @@ const transformFromCurrencyToNumber: (value: string) => number = (
 }
 
 export const newProductSchema = z.object({
-  status: z.custom<ProductsStatusEnum>().default(ProductsStatusEnum.ACTIVE),
-  name: z.string().default(''),
-  cost: z.string().default('').transform(transformFromCurrencyToNumber),
-  value: z.string().default('').transform(transformFromCurrencyToNumber),
-  categoryId: z.custom<string>().default(''),
+  status: z.custom<ProductsStatusEnum>(),
+  name: z.string(),
+  cost: z.string().transform(transformFromCurrencyToNumber),
+  value: z.string().transform(transformFromCurrencyToNumber),
+  categoryId: z.custom<string>(),
 })
